@@ -1,10 +1,37 @@
 # .gitignore
+
+# Python-specific
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
+*.py[cod]
+*$py.class
+*.so
 .Python
-env/
+build/
+dist/
+*.egg-info/
+*.egg
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
 venv/
+env/
+.env
+
+# Docker
+*.dockerignore
+Dockerfile.*
 *.log
-node_modules/
+
+# IDEs and editors
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Miscellaneous
+*.swp
+*~
