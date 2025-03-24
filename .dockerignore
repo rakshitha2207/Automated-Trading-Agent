@@ -4,3 +4,6 @@ __pycache__/
 .env
 postgres_data/
 mongo_data/
+.git
+.github
+tests/
